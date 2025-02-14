@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="tallers_que_oferim.css">
+        <link rel="icon" href="imatges/icona.png" type="image/png">
+        <title>Funtasies - Tallers que oferim</title>
+    </head>
+    <body>
+        <header>
+            <div class="menú">
+                <a href="inici.html">
+                    <img src="imatges/logo.png">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="inici"><a href="inici.html">Inici</a></li>
+                    <li class="tallers"><a href="tallers_que_oferim.html">Tallers que oferim</a></li>
+                    <li class="nosaltres"><a href="sobre_nosaltres.html">Sobre nosaltres</a></li>
+                    <li class="contacte"><a href="contacte.html">Contacte</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Taller</th>
+                        <th>Descripció</th>
+                        <th>Més informació</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Taller de Psicomotricitat</td>
+                        <td>Activitats basades en un conte perquè els infants se sentin protagonistes ajudant el personatge principal de la història.</td>
+                        <td>
+                            <div class="dropdown">
+                                <span class="dropdown-toggle">Veure més</span>
+                                <div class="dropdown-content">
+                                    <p><strong>Durada:</strong> 1 hora (1 sessió).</p>
+                                    <p><strong>Edats:</strong> Adaptat segons l'edat i les capacitats dels infants.</p>
+                                    <p><strong>Descripció detallada:</strong> La història és la mateixa per a totes les edats, però les activitats s'adapten.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Taller d'Aprenentatge</td>
+                        <td>Els infants aprendran les estacions mitjançant activitats adaptades a les seves edats.</td>
+                        <td>
+                            <div class="dropdown">
+                                <span class="dropdown-toggle">Veure més</span>
+                                <div class="dropdown-content">
+                                    <p><strong>Durada:</strong> 2 hores (2 sessions).</p>
+                                    <p><strong>Edats:</strong> I3, I4, I5.</p>
+                                    <p><strong>Activitats:</strong></p>
+                                    <ul>
+                                        <li><strong>I3:</strong> Experimentació de diferents tactes i sensacions.</li>
+                                        <li><strong>I4:</strong> Roda de classificació amb cartró i retoladors.</li>
+                                        <li><strong>I5:</strong> Memory per aprendre les estacions.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Taller de les Emocions</td>
+                        <td>Es treballen les emocions mitjançant el conte "El Monstre de Colors".</td>
+                        <td>
+                            <div class="dropdown">
+                                <span class="dropdown-toggle">Veure més</span>
+                                <div class="dropdown-content">
+                                    <p><strong>Durada:</strong> 1 sessió.</p>
+                                    <p><strong>Edats:</strong> 0-6 anys.</p>
+                                    <p><strong>Descripció detallada:</strong> Els infants identifiquen emocions i comparteixen experiències.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Taller d'Experiments</td>
+                        <td>Els infants participen en experiments basats en el color.</td>
+                        <td>
+                            <div class="dropdown">
+                                <span class="dropdown-toggle">Veure més</span>
+                                <div class="dropdown-content">
+                                    <p><strong>Durada:</strong> Diverses sessions.</p>
+                                    <p><strong>Edats:</strong> 0-6 anys.</p>
+                                    <p><strong>Descripció detallada:</strong> 5 experiments divertits i educatius.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <script>
+            document.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
+                toggle.addEventListener('click', function() {
+                    const dropdown = this.closest('.dropdown');
+                    dropdown.classList.toggle('active');
+                });
+            });
+            </script>
+        </main>
+        <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Centre Educatiu Jaume Viladoms. Tots els drets reservats.</p> 
+                <a href="politica.html">Politica de privacitat</a>
+            </div>
+        </footer>
+    </body>
+</html>
