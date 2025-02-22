@@ -1,0 +1,376 @@
+/*Font utilitzada*/
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+/*Estil general*/
+body {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url("imatges/fons2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Estil de l'encapçalament*/
+header {
+    padding: 20px;
+    background-color: #a9dfbf;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Estil del logo*/
+img {
+    width: 200px;
+}
+
+/*Estil del menú*/
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*Estil de la llista del menú*/
+nav ul li {
+    margin: 0;
+}
+
+/*Estil dels enllaços del menú*/
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+/*Estil del menú al passar el cursor*/
+nav ul li a:hover {
+    background: #28b463;
+    border-radius: 5px;
+    color: white;
+}
+
+/*Estil de l'apartat*/
+main {
+    padding: 20px;
+    max-width: 94%;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+/*Estil del contenidor d'informació*/
+#contenidor1 {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Estil del requadre*/
+.requadre-info {
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+/*Estil del títol del requadre*/
+.requadre-info h2 {
+    color: #28b463;
+    font-size: 2.5em;
+}
+
+/*Estil de l'eslogan*/
+.requadre-info p {
+    color: #555;
+    font-size: 1.2em;
+}
+
+/*Estil del text informatiu del requadre*/
+.introducció p{
+    color: #555;
+    font-size: 1em;
+}
+
+/*Estil del botó*/
+.botó-info {
+    display: inline-block;
+    background-color: #f5f3b3;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 2px solid #28b463;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+/*Estil de l'enllaç del botó*/
+.botó-info a {
+    color: #28b463;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/*Estil del botó al passar el cursor*/
+.botó-info:hover {
+    background-color: #28b463;
+    transform: scale(1.05);
+}
+
+/*Estil de l'enllaç al passar el cursor*/
+.botó-info:hover a {
+    color: white;
+}
+
+/*Estil del contenidor de serveis*/
+#contenidor2 {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*Estil dels serveis*/
+.serveis {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.caixa {
+    background: #f5f3b3;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 250px;
+}
+
+.caixa img {
+    margin-top: 25px;
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.caixa h2 {
+    font-size: 1.5em;
+    color: #28b463;
+    margin-bottom: 15px;
+}
+  
+.caixa p {
+    font-size: 1em;
+    color: #28b463;
+    line-height: 1.5;
+}
+  
+#contenidor3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#contenidor3 img {
+    width: 30%;
+    height: 255px;
+    object-fit: cover;
+}
+
+.beneficis {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.beneficis h2 {
+    margin: 20px;
+    font-size: 1.5em;
+    color: #333;
+    text-align: left;
+}
+
+.beneficis ul {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.beneficis li {
+    font-size: 1em;
+    line-height: 1.8;
+    margin-bottom: 0.8rem;
+    color: #555;
+}
+
+.beneficis li strong {
+    color: #000;
+}
+
+#contenidor4 {
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimoni {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: translateY(0);
+}
+
+.testimoni p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.testimoni h2 {
+    font-size: 1em;
+    color: #333;
+    text-align: right;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.testimoni:hover {
+    transform: translateY(-10px);
+}
+
+.estrelles {
+    color: #f1c40f;
+}
+
+footer {
+    background-color: #a9dfbf;
+    padding: 2rem 1rem;
+    line-height: 1.5;
+}
+
+.footer-bottom p {
+    font-size: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #f5f3b3;
+    padding-top: 1rem;
+    font-size: 12px;
+    color: black;
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .serveis {
+        flex-direction: column;
+        align-items: center;
+    }
+    .caixa {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .requadre-info {
+        width: 90%;
+    }
+    
+    #contenidor3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #contenidor3 img {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    
+    .beneficis {
+        width: 90%;
+    }
+    
+    .testimonis {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .testimoni {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .botó-info {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    
+    .testimoni {
+        padding: 1rem;
+    }
+}
+
+/*Animació*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
