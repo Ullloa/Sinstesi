@@ -59,32 +59,28 @@ main {
     animation: fadeIn 1.5s ease-out forwards;
 }
 
+/*Política de privacitat*/
 h1, h2 {
     color: #333;
     margin-bottom: 20px;
 }
-
 h1 {
     font-size: 2.5rem;
     text-align: center;
 }
-
 h2 {
     font-size: 2rem;
     margin-top: 40px;
 }
-
 p, ul {
     font-size: 1rem;
     line-height: 1.8;
     color: #333;
     margin-bottom: 20px;
 }
-
 ul {
     padding-left: 20px;
 }
-
 ul li {
     margin-bottom: 10px;
 }
