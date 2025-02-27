@@ -27,7 +27,7 @@ img {
     width: 200px;
 }
 
-/*Menú*/
+/*Menú de navegació*/
 nav ul {
     list-style: none;
     padding: 20px;
@@ -35,21 +35,15 @@ nav ul {
     display: flex;
     justify-content: center;
 }
-
-/*Llista del menú*/
 nav ul li {
     margin: 0;
 }
-
-/*Enllaços del menú*/
 nav ul li a {
     color: black;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
 }
-
-/*Menú al passar el cursor*/
 nav ul li a:hover {
     background: #28b463;
     border-radius: 5px;

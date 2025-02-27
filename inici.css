@@ -27,7 +27,7 @@ img {
     width: 200px;
 }
 
-/*Menú*/
+/*Menú de navegació*/
 nav ul {
     list-style: none;
     padding: 20px;
@@ -35,21 +35,15 @@ nav ul {
     display: flex;
     justify-content: center;
 }
-
-/*Llista del menú*/
 nav ul li {
     margin: 0;
 }
-
-/*Enllaços del menú*/
 nav ul li a {
     color: black;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
 }
-
-/*Menú al passar el cursor*/
 nav ul li a:hover {
     background: #28b463;
     border-radius: 5px;
@@ -65,15 +59,13 @@ main {
     animation: fadeIn 1.5s ease-out forwards;
 }
 
-/*Contenidor d'informació*/
+/*Informació*/
 #contenidor1 {
     padding: 20px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-
-/*Requadre informatiu*/
 .requadre-info {
     background: transparent;
     border: 5px solid white;
@@ -82,26 +74,18 @@ main {
     width: 60%;
     text-align: center;
 }
-
-/*Títol informatiu*/
 .requadre-info h2 {
     color: #28b463;
     font-size: 2.5em;
 }
-
-/*Eslogan*/
 .requadre-info p {
     color: #555;
     font-size: 1.2em;
 }
-
-/*Text informatiu*/
 .introducció p{
     color: #555;
     font-size: 1em;
 }
-
-/*Botó d'informació*/
 .botó-info {
     display: inline-block;
     background-color: #f5f3b3;
@@ -113,40 +97,30 @@ main {
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
 }
-
-/*Enllaç del botó d'informació*/
 .botó-info a {
     color: #28b463;
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
-/*Botó d'informació al passar el cursor*/
 .botó-info:hover {
     background-color: #28b463;
     transform: scale(1.05);
 }
-
-/*Enllaç del botó d'informació al passar el cursor*/
 .botó-info:hover a {
     color: white;
 }
 
-/*Contenidor de serveis*/
+/*Serveis*/
 #contenidor2 {
     padding: 20px;
     margin-top: 20px;
     text-align: center;
 }
-
-/*Serveis*/
 .serveis {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-
-/*Caixes de serveis*/
 .caixa {
     background: #f5f3b3;
     padding: 20px;
@@ -154,30 +128,24 @@ main {
     width: 30%;
     min-width: 250px;
 }
-
-/*Imatge de cada servei*/
 .caixa img {
     margin-top: 25px;
     width: 90%;
     height: 250px;
     object-fit: cover;
 }
-
-/*Títol de cada servei*/
 .caixa h2 {
     font-size: 1.5em;
     color: #28b463;
     margin-bottom: 15px;
 }
-
-/*Text de cada servei*/
 .caixa p {
     font-size: 1em;
     color: #28b463;
     line-height: 1.5;
 }
 
-/*Contenidor de beneficis*/
+/*Beneficis*/
 #contenidor3 {
     display: flex;
     justify-content: space-between;
@@ -186,59 +154,45 @@ main {
     margin-top: 20px;
     text-align: left;
 }
-
-/*Imatge de beneficis*/
 #contenidor3 img {
     width: 30%;
     height: 255px;
     object-fit: cover;
 }
-
-/*Requadre de beneficis*/
 .beneficis {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-
-/*Títol de beneficis*/
 .beneficis h2 {
     margin: 20px;
     font-size: 1.5em;
     color: #333;
     text-align: left;
 }
-
-/*Llista de beneficis*/
 .beneficis ul {
     margin-top: 15px;
     list-style-type: none;
     padding: 0;
     margin: 20px;
 }
-
-/*Text de beneficis*/
 .beneficis li {
     font-size: 1em;
     line-height: 1.8;
     margin-bottom: 0.8rem;
     color: #555;
-}
-
-/*Text en negreta de beneficis*/ 
+} 
 .beneficis li strong {
     color: #000;
 }
 
-/*Contenidor de testimonis*/
+/*Testimonis*/
 #contenidor4 {
     padding: 20px;
     margin-top: 30px;
     text-align: center;
     margin-bottom: 20px;
 }
-
-/*Testimonis*/
 .testimonis {
     display: flex;
     flex-wrap: wrap;
@@ -247,8 +201,6 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-/*Caixes de testimoni*/
 .testimoni {
     background-color: white;
     border-radius: 10px;
@@ -259,16 +211,12 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform: translateY(0);
 }
-
-/*Text del testimoni*/
 .testimoni p {
     font-size: 1em;
     color: #555;
     margin-bottom: 1rem;
     line-height: 1.6;
 }
-
-/*Nom de la persona*/
 .testimoni h2 {
     font-size: 1em;
     color: #333;
@@ -276,13 +224,9 @@ main {
     font-style: italic;
     margin-top: 1rem;
 }
-
-/*Caixa de testimoni al passar el cursor*/
 .testimoni:hover {
     transform: translateY(-10px);
 }
-
-/*Valoració*/
 .estrelles {
     color: #f1c40f;
 }
