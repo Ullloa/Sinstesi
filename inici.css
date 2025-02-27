@@ -13,7 +13,7 @@ body {
     background-size: cover;
 }
 
-/*Estil de l'encapçalament*/
+/*Encapçalament*/
 header {
     padding: 20px;
     background-color: #a9dfbf;
@@ -22,12 +22,12 @@ header {
     background-size: cover;
 }
 
-/*Estil del logo*/
+/*Logo*/
 img {
     width: 200px;
 }
 
-/*Estil del menú*/
+/*Menú*/
 nav ul {
     list-style: none;
     padding: 20px;
@@ -36,12 +36,12 @@ nav ul {
     justify-content: center;
 }
 
-/*Estil de la llista del menú*/
+/*Llista del menú*/
 nav ul li {
     margin: 0;
 }
 
-/*Estil dels enllaços del menú*/
+/*Enllaços del menú*/
 nav ul li a {
     color: black;
     text-decoration: none;
@@ -49,14 +49,14 @@ nav ul li a {
     display: block;
 }
 
-/*Estil del menú al passar el cursor*/
+/*Menú al passar el cursor*/
 nav ul li a:hover {
     background: #28b463;
     border-radius: 5px;
     color: white;
 }
 
-/*Estil de l'apartat*/
+/*Apartat*/
 main {
     padding: 20px;
     max-width: 94%;
@@ -65,7 +65,7 @@ main {
     animation: fadeIn 1.5s ease-out forwards;
 }
 
-/*Estil del contenidor d'informació*/
+/*Contenidor d'informació*/
 #contenidor1 {
     padding: 20px;
     margin-top: 20px;
@@ -73,7 +73,7 @@ main {
     justify-content: center;
 }
 
-/*Estil del requadre*/
+/*Requadre informatiu*/
 .requadre-info {
     background: transparent;
     border: 5px solid white;
@@ -83,25 +83,25 @@ main {
     text-align: center;
 }
 
-/*Estil del títol del requadre*/
+/*Títol informatiu*/
 .requadre-info h2 {
     color: #28b463;
     font-size: 2.5em;
 }
 
-/*Estil de l'eslogan*/
+/*Eslogan*/
 .requadre-info p {
     color: #555;
     font-size: 1.2em;
 }
 
-/*Estil del text informatiu del requadre*/
+/*Text informatiu*/
 .introducció p{
     color: #555;
     font-size: 1em;
 }
 
-/*Estil del botó*/
+/*Botó d'informació*/
 .botó-info {
     display: inline-block;
     background-color: #f5f3b3;
@@ -114,38 +114,39 @@ main {
     cursor: pointer;
 }
 
-/*Estil de l'enllaç del botó*/
+/*Enllaç del botó d'informació*/
 .botó-info a {
     color: #28b463;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-/*Estil del botó al passar el cursor*/
+/*Botó d'informació al passar el cursor*/
 .botó-info:hover {
     background-color: #28b463;
     transform: scale(1.05);
 }
 
-/*Estil de l'enllaç al passar el cursor*/
+/*Enllaç del botó d'informació al passar el cursor*/
 .botó-info:hover a {
     color: white;
 }
 
-/*Estil del contenidor de serveis*/
+/*Contenidor de serveis*/
 #contenidor2 {
     padding: 20px;
     margin-top: 20px;
     text-align: center;
 }
 
-/*Estil dels serveis*/
+/*Serveis*/
 .serveis {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
+/*Caixes de serveis*/
 .caixa {
     background: #f5f3b3;
     padding: 20px;
@@ -154,6 +155,7 @@ main {
     min-width: 250px;
 }
 
+/*Imatge de cada servei*/
 .caixa img {
     margin-top: 25px;
     width: 90%;
@@ -161,18 +163,21 @@ main {
     object-fit: cover;
 }
 
+/*Títol de cada servei*/
 .caixa h2 {
     font-size: 1.5em;
     color: #28b463;
     margin-bottom: 15px;
 }
-  
+
+/*Text de cada servei*/
 .caixa p {
     font-size: 1em;
     color: #28b463;
     line-height: 1.5;
 }
-  
+
+/*Contenidor de beneficis*/
 #contenidor3 {
     display: flex;
     justify-content: space-between;
@@ -182,18 +187,21 @@ main {
     text-align: left;
 }
 
+/*Imatge de beneficis*/
 #contenidor3 img {
     width: 30%;
     height: 255px;
     object-fit: cover;
 }
 
+/*Requadre de beneficis*/
 .beneficis {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
+/*Títol de beneficis*/
 .beneficis h2 {
     margin: 20px;
     font-size: 1.5em;
@@ -201,6 +209,7 @@ main {
     text-align: left;
 }
 
+/*Llista de beneficis*/
 .beneficis ul {
     margin-top: 15px;
     list-style-type: none;
@@ -208,6 +217,7 @@ main {
     margin: 20px;
 }
 
+/*Text de beneficis*/
 .beneficis li {
     font-size: 1em;
     line-height: 1.8;
@@ -215,10 +225,12 @@ main {
     color: #555;
 }
 
+/*Text en negreta de beneficis*/ 
 .beneficis li strong {
     color: #000;
 }
 
+/*Contenidor de testimonis*/
 #contenidor4 {
     padding: 20px;
     margin-top: 30px;
@@ -226,6 +238,7 @@ main {
     margin-bottom: 20px;
 }
 
+/*Testimonis*/
 .testimonis {
     display: flex;
     flex-wrap: wrap;
@@ -235,6 +248,7 @@ main {
     margin: 0 auto;
 }
 
+/*Caixes de testimoni*/
 .testimoni {
     background-color: white;
     border-radius: 10px;
@@ -246,6 +260,7 @@ main {
     transform: translateY(0);
 }
 
+/*Text del testimoni*/
 .testimoni p {
     font-size: 1em;
     color: #555;
@@ -253,6 +268,7 @@ main {
     line-height: 1.6;
 }
 
+/*Nom de la persona*/
 .testimoni h2 {
     font-size: 1em;
     color: #333;
@@ -261,24 +277,25 @@ main {
     margin-top: 1rem;
 }
 
+/*Caixa de testimoni al passar el cursor*/
 .testimoni:hover {
     transform: translateY(-10px);
 }
 
+/*Valoració*/
 .estrelles {
     color: #f1c40f;
 }
 
+/*Peu de pàgina*/
 footer {
     background-color: #a9dfbf;
     padding: 2rem 1rem;
     line-height: 1.5;
 }
-
 .footer-bottom p {
     font-size: 15px;
 }
-
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #f5f3b3;
@@ -293,24 +310,19 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    
     main {
         padding: 15px;
     }
-
     h1 {
         font-size: 2rem;
     }
-
     h2 {
         font-size: 1.5rem;
     }
-
     footer {
         font-size: 12px;
     }
 }
-
 @media (max-width: 1024px) {
     .serveis {
         flex-direction: column;
@@ -320,44 +332,35 @@ footer {
         width: 80%;
     }
 }
-
 @media (max-width: 768px) {
-
     .requadre-info {
         width: 90%;
     }
-    
     #contenidor3 {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    
     #contenidor3 img {
         width: 80%;
         margin-bottom: 60px;
     }
-    
     .beneficis {
         width: 90%;
     }
-    
     .testimonis {
         flex-direction: column;
         align-items: center;
     }
-    
     .testimoni {
         max-width: 90%;
     }
 }
-
 @media (max-width: 480px) {
     .botó-info {
         padding: 8px 15px;
         font-size: 14px;
     }
-    
     .testimoni {
         padding: 1rem;
     }
