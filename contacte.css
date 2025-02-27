@@ -66,8 +66,6 @@ main {
     margin: 15px;
     margin-top: 20px;
 }
-
-/*Mapa de Google Maps*/
 .mapa iframe {
     border: 5px solid #ffffff;
     border-radius: 10px;
@@ -84,30 +82,23 @@ main {
     gap: 20px;
     font-size: 50px;
 }
-
-/*Icones de les xarxes socials*/
 .xarxes-socials i {
     transition: transform 0.3s ease;
 }
-
-/*Enllaços de les xarxes socials*/
 .xarxes-socials a {
     color: #28b463;
 }
-
-/*Icones de les xarxes socials al passar el cursor*/
 .xarxes-socials i:hover {
     transform: scale(1.2);
     color: #1d8348;
 }
 
+/*Formulari de contacte*/
 #contenidor2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-/*Formulari de contacte*/
 .formulari {
     background-color: white;
     flex: 1;
