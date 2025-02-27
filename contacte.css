@@ -95,9 +95,8 @@ main {
 
 /*Formulari de contacte*/
 #contenidor2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     margin-bottom: 30px;
 }
 .formulari {
